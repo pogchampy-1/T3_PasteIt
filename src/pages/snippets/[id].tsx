@@ -11,7 +11,7 @@ const SnippetPage = () => {
     });
 
     if (isLoading) {
-        return <span>Loading data....</span>
+        return <span className='text-white'>Loading data....</span>
     }
 
     const handleCopy = () => {
